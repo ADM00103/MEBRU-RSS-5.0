@@ -10,7 +10,7 @@ $items_per_source = 20;
 $output_file = __DIR__ . '/rss.xml';
 
 $sources = [
-    ['name' => 'Habr', 'url' => 'https://habr.com/ru/rss/hubs/all/'],
+    ['name' => 'ServerNews', 'url' => 'https://servernews.ru/news/rss'],
     ['name' => '3DNews', 'url' => 'https://3dnews.ru/news/rss/'],
     ['name' => 'Xakep', 'url' => 'https://xakep.ru/feed/'],
     ['name' => '3DNews Games', 'url' => 'https://feeds.feedburner.com/3dnews/elyv'],
@@ -24,6 +24,7 @@ $sources = [
     ['name' => 'MMO13', 'url' => 'https://feeds.feedburner.com/mmo13/vBSwUWG0mTx'],
     ['name' => 'Player One', 'url' => 'https://feeds.feedburner.com/mail/zILX'],
     ['name' => 'Techimo', 'url' => 'https://techimo.ru/rss/'],
+    ['name' => 'Антивирусы', 'url' => 'http://feeds.feedburner.com/zapier/tGin'],
     ['name' => 'Steam Games', 'url' => 'http://feeds.feedburner.com/SteamOriginUplayGog'],
 ];
 
